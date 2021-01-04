@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+</head>
+<link rel="stylesheet" type="text/css" href="index.css">
+
+<script type="text/javascript">
+	function checkbrower()
+{
+	let userString=navigator.userAgent;  //var is declared globally througout the function and let is not..
+	let Chrome=userString.indexOf("Chrome")>-1 && userString.indexOf('Edg')==-1;
+	let firefox=userString.indexOf("Firefox")>-1;
+	if(Chrome||firefox)
+	{
+		alert("We strongly recommend Microsoft Edge");
+	}
+}
+
+ function Scroll()
+{
+	var myBtn=document.getElementById('btn');
+	if(document.documentElement.scrollTop > 20)
+	{
+		myBtn.style.display="block";
+	}
+	else
+	{
+		myBtn.style.display="none";
+	}
+} 
+
+function ScrollTop()
+{
+	document.documentElement.scrollTop=0;
+}
+
+
+</script>
+
+<body onload="checkbrower()" onscroll="Scroll()">
+	<section class="Row1">
+	<img class="Img_1" src="unnamed.png">
+	<img class="Img_2" src="image.png">
+	<img class="Img_3" src="Tech2.png">
+	<img class="Img_4" src="tech1.png">
+	</section>
+	<section class="Row2">
+	<button class="btn-exp">Expand </button>
+	</section>
+	<section class="Row3">
+	<img class="Programming" src="python-logo.png">
+    <img class="Programming_1" src="logo.svg">
+	<img class="Programming_2" src="js.png">
+	<img class="Programming_7 rotate" src="React.webp">
+	<img class="Programming_3" src="new-php-logo.svg">
+	<img class="Programming_4" src="c++1.png">
+	<img class="Programming_5" src="c.png">
+	<img class="Programming_6" src="java.png">
+	<img class="Programming_8" src="MySQL.webp">
+	<img class="Programming_9" src="html5.svg">
+	<img class="Programming_10" src="css3.svg">
+	<img class="Programming_11" src="Octave.png">
+	<img class="Programming_12" src="c2.png">
+	<img class="Gear" src="Gear2.png">
+	<img class="Gear1" src="Gear3.png">
+	<section class="SubRow" id="SubRow"></section>
+	<button class="btn-exp" id="btn-exp" onclick="ExpandIt()">Expand </button>
+	</section>
+	<section class="Row4">
+	<button class="btn-exp">Expand </button>
+	</section>
+	<img id="btn" onclick="ScrollTop()" src="selected1.png" class="Up-arrow">
+</body>
+</html>

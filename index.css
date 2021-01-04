@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Redressed&display=swap');
+
+body{
+
+  overflow-x: hidden;
+
+}
+
+.MainName
+{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Redressed', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Img_2 
+{
+  position: absolute;
+  bottom: 0px;
+  right: -250px;
+  transition: 0.7s;
+}
+
+.Img_3 
+{
+  position: absolute;
+  bottom: -150px;
+  right: 50%;
+  height: 150px;
+  transition: 0.7s;
+}
+
+.Img_4 
+{
+  position: absolute;
+  bottom: -150px;
+  left: 50%;
+  height: 150px;
+  transition: 0.7s;
+
+}
+
+.Row1:hover .Img_3 
+{
+  bottom: 0px;
+}
+
+.Row1:hover .Img_4 
+{
+  bottom: 0px;
+}
+
+.Row1:hover .Img_2{
+  right: 0px;
+}
+
+.Row1
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 75%;;
+    background: rgb(248,188,7);
+    transition: 1s;
+}
+
+.Row1:hover{
+  background-color: white;
+}
+
+.Row2
+{
+  position: absolute;
+  top: 75%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 75%;;
+  background: rgb(235,254,1);
+}
+.Row3
+{
+  position: absolute;
+  top: 150%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 75%;;
+  background: rgb(240,206,15);
+  transition: 1s;
+}
+
+.Row4
+{
+  position: absolute;
+  top: 225%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 75%;;
+  background: rgb(23,28,30);
+}
+
+.Programming
+{
+  position: absolute;
+  bottom: -80px;
+  transition: 0.7s;
+
+}
+
+.Programming_1
+{
+  position: absolute;
+  bottom: -180px;
+  transition: 0.5s;
+  width: 180px;
+  height: 180px;
+  left: 270px;
+}
+
+.Row3:hover .Programming
+{
+  bottom: 0px;
+}
+
+.Row3:hover
+{
+  background-color: #2f454f;
+}
+
+.Row3:hover .Programming_2
+{
+  bottom: 0px;
+}
+
+.Row3:hover .Programming_1
+{
+  bottom: -35px;
+}
+
+.Programming_2
+{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  bottom: -100px;
+  left: 470px;
+  transition: 0.7s;
+
+}
+
+.Programming_3
+{
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  bottom: -180px;
+  left: 1000px;
+  transition: 0.5s;
+}
+
+.Row3:hover .Programming_3
+{
+  bottom: -30px;
+}
+
+.Programming_4
+{
+  position: absolute;
+  bottom: -100px;
+  height: 100px;
+  width: 100px;
+  left: 680px;
+  transition: 0.7s;
+}
+
+.Programming_5
+{
+  position: absolute;
+  bottom: -95px;
+  height: 95px;
+  width: 95px;
+  left: 800px;
+  transition: 0.7s;
+}
+
+.Programming_6
+{
+  position: absolute;
+  bottom: -95px;
+  height: 95px;
+  width: 95px;
+  left: 900px;
+  transition: 0.6s;
+}
+
+
+
+.Programming_7
+{
+  position: absolute;
+  bottom: -95px;
+  height: 95px;
+  width: 95px;
+  left: 580px;
+  transition: 0.7s;
+  /* animation-name: rotation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite ; */
+  animation: rotation 15s infinite linear;
+}
+
+.Programming_8
+{
+  position: absolute;
+  bottom: -95px;
+  height: 95px;
+  width: 125px;
+  left: 1155px;
+  transition: 0.7s;
+}
+
+.Programming_9
+{
+  position: absolute;
+  left: -125px;
+  height: 95px;
+  width: 125px;
+  bottom: 100px;
+  transition: 0.7s;
+}
+
+.Programming_10
+{
+  position: absolute;
+  right: -125px;
+  height: 95px;
+  width: 125px;
+  bottom: 100px;
+  transition: 0.7s;
+}
+
+.Programming_11
+{
+  position: absolute;
+  bottom: 200px;
+  left:-200px;
+  transition: 0.7s;
+  height: 100px;
+  width: 180px;
+}
+.Programming_12
+{
+  position: absolute;
+  bottom: 200px;
+  height: 100px;
+  width: 100px;
+  transition: 0.7s;
+  right: -200px;
+}
+
+.Row3:hover .Programming_9
+{
+  left: -15px;
+}
+
+.Row3:hover .Programming_11
+{
+  left: -38px;
+}
+
+.Row3:hover .Programming_12
+{
+  right: 0px;
+}
+
+.Row3:hover .Programming_10
+{
+  right: -15px;
+}
+
+.Row3:hover .Programming_4
+{
+   bottom: 0px;
+}
+
+.Row3:hover .Programming_8
+{
+  bottom: 0px;
+}
+
+.Row3:hover .Programming_7
+{
+  bottom: 0px;
+}
+
+.Row3:hover .Programming_6
+{
+   bottom: 7px;
+}
+
+.Row3:hover .Programming_5
+{
+   bottom: 0px;
+}
+
+.Img_1
+{
+  position: absolute;
+  bottom: 0;
+  left: -250px;
+  height: 250px;
+  width: 250px;
+  transition: 0.7s;
+}
+
+.Row1:hover .Img_1{
+  left:0px;
+}
+
+
+@keyframes rotation{
+  from{
+    transform: rotate(0deg);
+  }
+  to 
+  {
+    transform: rotate(360deg);
+  } 
+}
+
+#btn
+{
+  display: none;
+  position: fixed;
+  bottom: 5px;
+  right: 0px;
+  width: 65px;
+  height: 65px;
+  cursor: pointer;
+  transform: 0.7s;
+}
+
+.btn-exp
+{
+  position: absolute;
+  top:5px;
+  left: -205px;
+  font-weight: bold;
+  font-size: 25px;
+  height: 55px;
+  width: 200px;
+  border-top-right-radius:20px ;
+  border-bottom-right-radius: 20px;
+  border: 0px solid black;
+  background-color: #07006db0;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.btn-exp:hover
+{
+    height: 65px;
+    width: 210px;
+    background-color: white;
+    font-size: 30px;
+
+}
+
+
+.Row3:hover .btn-exp
+{
+  left: 0px;
+}
+
+.Row1:hover .btn-exp
+{
+  left: 0px;
+}
+.Row2:hover .btn-exp
+{
+  left: 0px;
+}
+.Row4:hover .btn-exp
+{
+  left: 0px;
+}
+
+.SubRow 
+{
+  position: absolute;
+  height: 100%;
+  width: 0;
+  border: 1px solid black; 
+  background-color: #14151482;
+  transition: 0.7s;
+}
+
+.Gear
+{
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  right: 0px;
+  animation: rotation 10s infinite linear;
+}
+
+.Gear1
+{
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  right: 70px;
+  top: 52px;
+  animation: revrot 8s infinite linear;
+}
+
+@keyframes revrot
+{
+  from{
+    transform: rotate(360deg);
+  }
+  to 
+  {
+    transform: rotate(0deg);
+  }
+}
+
